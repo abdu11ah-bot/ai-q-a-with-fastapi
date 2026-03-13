@@ -1,0 +1,87 @@
+2026-03-13 19:08:35,546 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:08:35,546 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:08:35,911 - INFO - Text extraction completed for PDF: aol.pdf
+2026-03-13 19:08:35,911 - INFO - Text extraction completed
+2026-03-13 19:08:42,933 - INFO - Asking question: what is value
+2026-03-13 19:08:46,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-13 19:08:46,124 - ERROR - Error asking question: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-03-13 19:09:08,711 - INFO - Asking question: what is value ?
+2026-03-13 19:09:08,832 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-13 19:09:08,832 - ERROR - Error asking question: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-03-13 19:11:40,531 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:11:40,531 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:11:40,876 - INFO - Text extraction completed for PDF: aol.pdf
+2026-03-13 19:11:40,876 - INFO - Text extraction completed
+2026-03-13 19:11:50,855 - INFO - Asking question: what is value
+2026-03-13 19:11:56,191 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:11:56,191 - INFO - Retrying request to /chat/completions in 0.375300 seconds
+2026-03-13 19:12:01,584 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:12:01,590 - INFO - Retrying request to /chat/completions in 0.761818 seconds
+2026-03-13 19:12:07,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:12:07,374 - ERROR - Error asking question: Error code: 500 - {'error': {'message': 'Internal Server Error', 'code': 500}}
+2026-03-13 19:16:21,441 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:16:21,441 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:16:21,789 - INFO - Text extraction completed for PDF: aol.pdf
+2026-03-13 19:16:21,789 - INFO - Text extraction completed
+2026-03-13 19:16:27,431 - INFO - Asking question: what is value
+2026-03-13 19:16:32,832 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:16:32,832 - INFO - Retrying request to /chat/completions in 0.473118 seconds
+2026-03-13 19:16:38,317 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:16:38,317 - INFO - Retrying request to /chat/completions in 0.835469 seconds
+2026-03-13 19:16:44,162 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:16:44,162 - ERROR - Error asking question: Error code: 500 - {'error': {'message': 'Internal Server Error', 'code': 500}}
+2026-03-13 19:18:15,802 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:18:15,802 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:18:16,141 - INFO - Text extraction completed for PDF: aol.pdf
+2026-03-13 19:18:16,141 - INFO - Text extraction completed
+2026-03-13 19:18:22,406 - INFO - Asking question: what is value
+2026-03-13 19:18:27,811 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:18:27,812 - INFO - Retrying request to /chat/completions in 0.429457 seconds
+2026-03-13 19:18:33,263 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:18:33,267 - INFO - Retrying request to /chat/completions in 0.946928 seconds
+2026-03-13 19:18:39,226 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-13 19:18:39,226 - ERROR - Error asking question: Error code: 500 - {'error': {'message': 'Internal Server Error', 'code': 500}}
+2026-03-13 19:20:04,732 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:20:04,734 - INFO - Extracting text from PDF: aol.pdf
+2026-03-13 19:20:04,734 - INFO - Text extraction completed for PDF: aol.pdf
+2026-03-13 19:20:04,734 - INFO - Text extraction completed
+2026-03-13 19:20:12,453 - INFO - Asking question: hello
+2026-03-13 19:20:14,202 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:20:14,812 - INFO - Question answered
+2026-03-13 19:20:14,812 - INFO - Question asked: hello
+2026-03-13 19:20:50,189 - INFO - Asking question: could you tell me the importent topic from this
+2026-03-13 19:20:51,642 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:20:57,362 - INFO - Question answered
+2026-03-13 19:20:57,362 - INFO - Question asked: could you tell me the importent topic from this
+2026-03-13 19:21:33,782 - INFO - Asking question: what is coming out of box
+2026-03-13 19:21:34,865 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:21:36,927 - INFO - Question answered
+2026-03-13 19:21:36,932 - INFO - Question asked: what is coming out of box
+2026-03-13 19:22:46,784 - INFO - Asking question: how are you
+2026-03-13 19:22:53,417 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:22:53,882 - INFO - Question answered
+2026-03-13 19:22:53,890 - INFO - Question asked: how are you
+2026-03-13 19:27:38,455 - INFO - Asking question: what date and time it is
+2026-03-13 19:27:44,332 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:27:45,122 - INFO - Question answered
+2026-03-13 19:27:45,122 - INFO - Question asked: what date and time it is
+2026-03-13 19:28:18,097 - INFO - Asking question: can you hlep me with my project
+2026-03-13 19:28:20,030 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 19:28:21,522 - INFO - Question answered
+2026-03-13 19:28:21,527 - INFO - Question asked: can you hlep me with my project
+2026-03-13 22:04:00,852 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-13 22:04:00,862 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-13 22:04:17,789 - INFO - Asking question: hello
+2026-03-13 22:04:19,864 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 22:04:20,386 - INFO - Question answered
+2026-03-13 22:04:53,862 - INFO - Asking question: could you prepare a note based on that
+2026-03-13 22:04:55,697 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 22:05:12,234 - INFO - Question answered
+2026-03-13 22:21:43,064 - INFO - Extracting text from PDF: file.pdf
+2026-03-13 22:21:43,066 - INFO - Extracting text from PDF: file.pdf
+2026-03-13 22:21:43,066 - INFO - Text extraction completed for PDF: file.pdf
+2026-03-13 22:21:43,066 - INFO - Text extraction completed
+2026-03-13 22:27:16,716 - INFO - Asking question: hello
+2026-03-13 22:27:20,563 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-13 22:27:21,167 - INFO - Question answered
+2026-03-13 22:27:21,167 - INFO - Question asked: hello
