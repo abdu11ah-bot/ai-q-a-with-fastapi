@@ -28,7 +28,7 @@ def ask_question(question, context):
     logging.info(f"Asking question: {question}")
 
     response = client.chat.completions.create(
-        model="openai/gpt-4o-mini",   # fixed model
+        model="gpt-4o-mini",   # fixed model
         messages=[
             {"role": "user", "content": prompt}
         ]

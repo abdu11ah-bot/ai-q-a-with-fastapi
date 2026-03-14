@@ -21,7 +21,7 @@ async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 @app.post("/upload")
-async def upload_pdf(file: UploadFile = File(...)):
+async def upload_pdf(request: Request, file: UploadFile = File(...)):
     global document_text
     try:
         file_location = f"static/data/{file.filename}"
@@ -29,7 +29,13 @@ async def upload_pdf(file: UploadFile = File(...)):
             shutil.copyfileobj(file.file, buffer)
         
         document_text = extract_text_from_pdf(file_location)
-        return {"message": "PDF uploaded and text extracted successfully."}
+        return templates.TemplateResponse(
+        "index.html",
+        {
+            "request": request,
+            "message": "PDF uploaded successfully"
+        }
+)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

@@ -154,3 +154,37 @@
 2026-03-14 15:17:18,715 - INFO - Asking question: tell me about the doc i uploded
 2026-03-14 15:17:20,406 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-14 15:17:28,101 - INFO - Question answered
+2026-03-14 15:56:40,237 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:56:40,246 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 16:02:48,193 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 16:02:48,200 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 16:02:56,276 - INFO - Asking question: hello
+2026-03-14 16:03:01,823 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:03:01,824 - INFO - Retrying request to /chat/completions in 0.464448 seconds
+2026-03-14 16:03:07,307 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:03:07,308 - INFO - Retrying request to /chat/completions in 0.995325 seconds
+2026-03-14 16:03:13,372 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:17:43,496 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 16:17:43,515 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 16:17:51,358 - INFO - Asking question: hello
+2026-03-14 16:17:56,938 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:17:56,939 - INFO - Retrying request to /chat/completions in 0.396090 seconds
+2026-03-14 16:18:02,348 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:18:02,354 - INFO - Retrying request to /chat/completions in 0.905830 seconds
+2026-03-14 16:18:08,274 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:25:45,245 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 16:25:45,252 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 16:25:56,567 - INFO - Asking question: hello
+2026-03-14 16:26:02,031 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:26:02,033 - INFO - Retrying request to /chat/completions in 0.382434 seconds
+2026-03-14 16:26:07,429 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:26:07,431 - INFO - Retrying request to /chat/completions in 0.757188 seconds
+2026-03-14 16:26:13,206 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-03-14 16:28:32,075 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 16:28:32,083 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 16:28:39,039 - INFO - Asking question: hello
+2026-03-14 16:28:41,489 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 16:28:41,880 - INFO - Question answered
+2026-03-14 16:29:06,420 - INFO - Asking question: how are you
+2026-03-14 16:29:07,565 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 16:29:08,412 - INFO - Question answered
