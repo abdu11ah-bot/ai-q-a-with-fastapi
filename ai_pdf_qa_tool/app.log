@@ -85,3 +85,72 @@
 2026-03-13 22:27:20,563 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-13 22:27:21,167 - INFO - Question answered
 2026-03-13 22:27:21,167 - INFO - Question asked: hello
+2026-03-14 01:05:46,255 - INFO - Extracting text from PDF: static/data/Lec_5_Communication_Ethics_and_Characteristics_of_250616_142727.pdf
+2026-03-14 01:05:46,373 - INFO - Text extraction completed for PDF: static/data/Lec_5_Communication_Ethics_and_Characteristics_of_250616_142727.pdf
+2026-03-14 01:06:06,726 - INFO - Asking question: hello
+2026-03-14 01:06:08,156 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-14 01:07:35,420 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 01:07:35,427 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 01:07:41,566 - INFO - Asking question: hello
+2026-03-14 01:07:42,454 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-14 01:08:21,346 - INFO - Asking question: hello
+2026-03-14 01:08:21,646 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-14 01:08:48,388 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 01:08:48,395 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 01:08:53,636 - INFO - Asking question: 
+2026-03-14 01:08:54,056 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-14 01:12:25,805 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 01:12:25,812 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 01:12:34,538 - INFO - Asking question: hello
+2026-03-14 01:13:28,874 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 01:13:28,883 - INFO - Question answered
+2026-03-14 01:13:48,784 - INFO - Asking question: hello
+2026-03-14 01:15:03,883 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 01:15:03,892 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 01:15:11,311 - INFO - Asking question: hello
+2026-03-14 01:15:26,985 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 01:15:27,573 - INFO - Question answered
+2026-03-14 15:02:18,670 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:02:18,691 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:02:26,090 - INFO - Asking question: hello
+2026-03-14 15:02:31,765 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:02:32,101 - INFO - Question answered
+2026-03-14 15:05:34,203 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:05:34,210 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:05:45,637 - INFO - Asking question: hello
+2026-03-14 15:05:48,197 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:05:48,657 - INFO - Question answered
+2026-03-14 15:07:26,745 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:07:26,752 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:07:30,857 - INFO - Asking question: hello
+2026-03-14 15:07:33,453 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:07:34,035 - INFO - Question answered
+2026-03-14 15:07:53,418 - INFO - Asking question: hello
+2026-03-14 15:07:54,820 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:07:55,745 - INFO - Question answered
+2026-03-14 15:08:07,770 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:08:07,778 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:08:12,265 - INFO - Asking question: hello
+2026-03-14 15:08:14,400 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:08:14,871 - INFO - Question answered
+2026-03-14 15:09:04,133 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:09:04,138 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:09:07,900 - INFO - Asking question: hello
+2026-03-14 15:09:10,326 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:09:10,763 - INFO - Question answered
+2026-03-14 15:09:42,251 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:09:42,258 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:09:45,723 - INFO - Asking question: hello
+2026-03-14 15:09:47,517 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:09:48,306 - INFO - Question answered
+2026-03-14 15:16:14,465 - INFO - Extracting text from PDF: static/data/file.pdf
+2026-03-14 15:16:14,471 - INFO - Text extraction completed for PDF: static/data/file.pdf
+2026-03-14 15:16:18,470 - INFO - Asking question: hello
+2026-03-14 15:16:25,422 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:16:25,940 - INFO - Question answered
+2026-03-14 15:16:43,594 - INFO - Asking question: tell me about your self
+2026-03-14 15:16:45,325 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:16:46,671 - INFO - Question answered
+2026-03-14 15:17:18,715 - INFO - Asking question: tell me about the doc i uploded
+2026-03-14 15:17:20,406 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 15:17:28,101 - INFO - Question answered

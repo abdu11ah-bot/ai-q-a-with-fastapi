@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form,Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
@@ -33,13 +33,23 @@ async def upload_pdf(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/ask")
-async def ask(question: str = Form(...)):
+@app.post("/ask",response_class=HTMLResponse)
+async def ask(request: Request,question: str = Form(...)):
     global document_text
     if not document_text:
         raise HTTPException(status_code=400, detail="No document uploaded yet.")
     try:
         answer = ask_question(question, document_text)
-        return {"answer": answer}
+    except Exception as e:
+        answer = f"Error processing question: {str(e)}"
+    try:
+        return templates.TemplateResponse(
+            "index.html", 
+            {
+                "request": request,
+                "answer": answer,
+                "question": question
+            }
+        )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
